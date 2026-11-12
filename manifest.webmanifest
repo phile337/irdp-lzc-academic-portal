@@ -1,0 +1,10 @@
+{
+  "name": "IRDP Notes & Past Papers",
+  "short_name": "IRDP Notes",
+  "description": "IRDP learning resources portal",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7faf7",
+  "theme_color": "#173c32",
+  "icons": []
+}
