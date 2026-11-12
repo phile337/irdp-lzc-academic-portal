@@ -319,8 +319,8 @@ async function showStudentContent(view){
  };
 
  title.textContent=titles[view]||"Learning Resources";
- target.innerHTML='<p class="empty-state">Loading...</p>';
-
+ target.innerHTML='<p class="empty-state">Loading... Please wait.</p>';
+console.log("Student content:", view, "Supabase:", !!supabase);
  if(view==="note" || view==="past_paper"){
   const {data,error}=await supabase
    .from("materials")
