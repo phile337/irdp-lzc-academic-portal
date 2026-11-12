@@ -308,7 +308,6 @@ async function renderStudentTimetables(){
  });
 }
 async function showStudentContent(view){
-  alert("Function imefika: " + view);
  const target=$("studentContent");
  const title=$("studentContentTitle");
 
